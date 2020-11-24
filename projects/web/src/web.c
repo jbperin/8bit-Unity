@@ -55,7 +55,7 @@ int main (void)
 	gotoxy(10, 2); cprintf("Web Server:");
 	gotoxy(8, 4);  cprintf("----------------------");		
 	gotoxy(0, 6);  cprintf("Last Req:");		
-	gotoxy(0, 8);  cprintf("Requests served: 0");		
+	gotoxy(0, 8);  cprintf("Requests served: 0.");		
 	
 	// Init network and listen on UDP port 5000
 	state = InitNetwork();
